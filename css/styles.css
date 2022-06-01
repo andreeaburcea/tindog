@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Mono&display=swap');
+
+body {
+    font-family: "Roboto Mono";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Mono";
+    font-weight: bold;
+}
+
+
+p {
+    color: gray;
+}
+
+/* headings */
+
+.big-heading {
+    font-family: Roboto Mono, sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.section-hading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* container */
+
+.container-fluid {
+    padding: 7% 15%;
+
+}
+/* title section */
+#title {
+    background-color: #3BACB6;
+    color: azure;
+    text-align: left;
+
+}
+/* add this specific padding to title section */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* sections */
+
+.color-section {
+
+}
+
+.white-section {
+    background-color: aliceblue;
+
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+/* Navigation Bar */
+/* name brand */
+.navbar-brand {
+    font-family: "Mukta";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Mukta"; 
+    /* Monseratt-light */
+
+}
+
+/* Download button */
+
+.download-button {
+    margin: 5% 3% 5% 0; 
+    /*  */
+}
+
+/* title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    /* z-index: -1; */
+    position: absolute;
+    right: 35%;
+
+}
+
+/* feature section , its an id and we have to use #*/
+
+#features {
+    padding: 7% 15%;
+    background-color: aliceblue;
+    position: relative;
+    /* z-index: 1; */
+
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: rgb(148, 21, 233);
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: rgb(209, 139, 186);
+}
+
+/* testimonial section */
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: rgb(148, 21, 233);
+    color: aliceblue;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+#press {
+    background-color: rgb(148, 21, 233);
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;   /*space between images*/
+
+}
+
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.price-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* call to action */
+
+#cta {
+    background-color: #3BACB6;
+    color: aliceblue;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0); /* rotate back to 0 straight*/
+    }
+    
+}
+
+
